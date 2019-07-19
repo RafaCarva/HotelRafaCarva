@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelRafaCarva", "HotelRafaCarva.csproj", "{E9A41955-CBA0-4442-988B-6817F6AE9324}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelRafaCarva", "HotelRafaCarva.csproj", "{E9A41955-CBA0-4442-988B-6817F6AE9324}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D096EE7-972B-4911-8DAB-A062FC768123}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{24157773-FE1A-415A-AFA5-0F4DF2FD216A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestHotel", "..\XUnitTestHotel\XUnitTestHotel.csproj", "{4AE37433-CC48-4394-BBAE-619DEEBA699D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestHotel", "..\XUnitTestHotel\XUnitTestHotel.csproj", "{4AE37433-CC48-4394-BBAE-619DEEBA699D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelRafaCarva.Domain", "..\HotelRafaCarva.Domain\HotelRafaCarva.Domain.csproj", "{F074B931-9839-48C3-B13D-4DFF523E24BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +27,10 @@ Global
 		{4AE37433-CC48-4394-BBAE-619DEEBA699D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AE37433-CC48-4394-BBAE-619DEEBA699D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AE37433-CC48-4394-BBAE-619DEEBA699D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F074B931-9839-48C3-B13D-4DFF523E24BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F074B931-9839-48C3-B13D-4DFF523E24BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F074B931-9839-48C3-B13D-4DFF523E24BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F074B931-9839-48C3-B13D-4DFF523E24BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E9A41955-CBA0-4442-988B-6817F6AE9324} = {2D096EE7-972B-4911-8DAB-A062FC768123}
 		{4AE37433-CC48-4394-BBAE-619DEEBA699D} = {24157773-FE1A-415A-AFA5-0F4DF2FD216A}
+		{F074B931-9839-48C3-B13D-4DFF523E24BF} = {2D096EE7-972B-4911-8DAB-A062FC768123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03E8D981-94A5-4B18-BD2F-95D7A7DDC24F}

@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HotelRafaCarva.Domain\HotelRafaCarva.Domain.csproj" />
+    <Folder Include="Entities\" />
+    <Folder Include="ValueObjects\" />
   </ItemGroup>
 
 </Project>
